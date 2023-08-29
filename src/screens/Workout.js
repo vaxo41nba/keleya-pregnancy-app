@@ -27,7 +27,7 @@ export default function Name({ navigation }) {
     <View style={styles.container}>
       <View style={styles.header}>
         <Image source={images.goal} style={styles.image} />
-        <BackArrow />
+        <BackArrow navigation={navigation} />
         <Text style={styles.h1}>
           {t('How many times a week do you want to be active?')}
         </Text>

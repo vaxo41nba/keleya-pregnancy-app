@@ -7,8 +7,7 @@ import images from '../constants/images';
 
 const top = Constants.statusBarHeight;
 
-export default function BackArrow() {
-  const navigation = useNavigation();
+export default function BackArrow({ navigation }) {
   const goBack = () => navigation.goBack();
 
   return (

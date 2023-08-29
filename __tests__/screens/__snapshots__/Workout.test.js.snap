@@ -1,0 +1,571 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+      "justifyContent": "space-between",
+      "paddingBottom": 30,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "height": "55%",
+        "width": "100%",
+      }
+    }
+  >
+    <Image
+      source={1}
+      style={
+        {
+          "height": "100%",
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "height": 35,
+          "justifyContent": "center",
+          "left": 35,
+          "opacity": 1,
+          "position": "absolute",
+          "top": 54,
+          "width": 40,
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          {
+            "height": 15,
+            "width": 20,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        {
+          "color": "#4a4a4a",
+          "fontSize": 25,
+          "left": 40,
+          "position": "absolute",
+          "right": 40,
+          "textAlign": "center",
+          "top": "20%",
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      [
+        {
+          "position": "relative",
+        },
+        {
+          "height": 200,
+        },
+        {
+          "marginHorizontal": "15%",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "hsl(200, 8%, 94%)",
+            "borderRadius": 5,
+            "position": "absolute",
+            "top": "50%",
+            "width": "100%",
+          },
+          {},
+          {
+            "height": 40,
+            "transform": [
+              {
+                "translateY": -20,
+              },
+            ],
+          },
+        ]
+      }
+    />
+    <RCTScrollView
+      collapsable={false}
+      data={
+        [
+          null,
+          null,
+          undefined,
+          "2 undefined",
+          "3 undefined",
+          "4 undefined",
+          "5 undefined",
+          "6 undefined",
+          "7 undefined",
+          null,
+          null,
+        ]
+      }
+      decelerationRate="fast"
+      getItem={[Function]}
+      getItemCount={[Function]}
+      getItemLayout={[Function]}
+      initialScrollIndex={2}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={0.0001}
+      showsVerticalScrollIndicator={false}
+      snapToOffsets={
+        [
+          0,
+          40,
+          80,
+          120,
+          160,
+          200,
+          240,
+          280,
+          320,
+          360,
+          400,
+        ]
+      }
+      stickyHeaderIndices={[]}
+      style={
+        {
+          "flex": 1,
+          "overflow": "hidden",
+        }
+      }
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View>
+        <View
+          style={
+            {
+              "height": 80,
+            }
+          }
+        />
+        <View
+          onFocusCapture={[Function]}
+          style={null}
+        >
+          <View
+            collapsable={false}
+            style={
+              {
+                "alignItems": "center",
+                "height": 40,
+                "justifyContent": "center",
+                "opacity": 1,
+                "paddingHorizontal": 16,
+                "transform": [
+                  {
+                    "translateY": 0,
+                  },
+                  {
+                    "rotateX": "0deg",
+                  },
+                  {
+                    "scale": 1,
+                  },
+                ],
+                "zIndex": 100,
+              }
+            }
+          >
+            <Text
+              style={{}}
+            />
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          style={null}
+        >
+          <View
+            collapsable={false}
+            style={
+              {
+                "alignItems": "center",
+                "height": 40,
+                "justifyContent": "center",
+                "opacity": 0.33333333333333326,
+                "paddingHorizontal": 16,
+                "transform": [
+                  {
+                    "translateY": -2.448348762192547,
+                  },
+                  {
+                    "rotateX": "0.5deg",
+                  },
+                  {
+                    "scale": 0.7,
+                  },
+                ],
+                "zIndex": 100,
+              }
+            }
+          >
+            <Text
+              style={{}}
+            >
+              2 undefined
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          style={null}
+        >
+          <View
+            collapsable={false}
+            style={
+              {
+                "alignItems": "center",
+                "height": 40,
+                "justifyContent": "center",
+                "opacity": 0.1111111111111111,
+                "paddingHorizontal": 16,
+                "transform": [
+                  {
+                    "translateY": -10.262920146908678,
+                  },
+                  {
+                    "rotateX": "0.75deg",
+                  },
+                  {
+                    "scale": 0.7,
+                  },
+                ],
+                "zIndex": 100,
+              }
+            }
+          >
+            <Text
+              style={{}}
+            >
+              3 undefined
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          style={null}
+        >
+          <View
+            collapsable={false}
+            style={
+              {
+                "alignItems": "center",
+                "height": 40,
+                "justifyContent": "center",
+                "opacity": 0.037037037037037035,
+                "paddingHorizontal": 16,
+                "transform": [
+                  {
+                    "translateY": -22.80920560616576,
+                  },
+                  {
+                    "rotateX": "0.875deg",
+                  },
+                  {
+                    "scale": 0.7,
+                  },
+                ],
+                "zIndex": 100,
+              }
+            }
+          >
+            <Text
+              style={{}}
+            >
+              4 undefined
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          style={null}
+        >
+          <View
+            collapsable={false}
+            style={
+              {
+                "alignItems": "center",
+                "height": 40,
+                "justifyContent": "center",
+                "opacity": -0.037037037037037035,
+                "paddingHorizontal": 16,
+                "transform": [
+                  {
+                    "translateY": -35.35549106542285,
+                  },
+                  {
+                    "rotateX": "1deg",
+                  },
+                  {
+                    "scale": 0.7,
+                  },
+                ],
+                "zIndex": 100,
+              }
+            }
+          >
+            <Text
+              style={{}}
+            >
+              5 undefined
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          style={null}
+        >
+          <View
+            collapsable={false}
+            style={
+              {
+                "alignItems": "center",
+                "height": 40,
+                "justifyContent": "center",
+                "opacity": -0.1111111111111111,
+                "paddingHorizontal": 16,
+                "transform": [
+                  {
+                    "translateY": -47.901776524679924,
+                  },
+                  {
+                    "rotateX": "1.125deg",
+                  },
+                  {
+                    "scale": 0.7,
+                  },
+                ],
+                "zIndex": 100,
+              }
+            }
+          >
+            <Text
+              style={{}}
+            >
+              6 undefined
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          style={null}
+        >
+          <View
+            collapsable={false}
+            style={
+              {
+                "alignItems": "center",
+                "height": 40,
+                "justifyContent": "center",
+                "opacity": -0.18518518518518517,
+                "paddingHorizontal": 16,
+                "transform": [
+                  {
+                    "translateY": -60.44806198393701,
+                  },
+                  {
+                    "rotateX": "1.25deg",
+                  },
+                  {
+                    "scale": 0.7,
+                  },
+                ],
+                "zIndex": 100,
+              }
+            }
+          >
+            <Text
+              style={{}}
+            >
+              7 undefined
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          style={null}
+        >
+          <View
+            collapsable={false}
+            style={
+              {
+                "alignItems": "center",
+                "height": 40,
+                "justifyContent": "center",
+                "opacity": -0.25925925925925924,
+                "paddingHorizontal": 16,
+                "transform": [
+                  {
+                    "translateY": -72.9943474431941,
+                  },
+                  {
+                    "rotateX": "1.375deg",
+                  },
+                  {
+                    "scale": 0.7,
+                  },
+                ],
+                "zIndex": 100,
+              }
+            }
+          >
+            <Text
+              style={{}}
+            />
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          style={null}
+        >
+          <View
+            collapsable={false}
+            style={
+              {
+                "alignItems": "center",
+                "height": 40,
+                "justifyContent": "center",
+                "opacity": -0.3333333333333333,
+                "paddingHorizontal": 16,
+                "transform": [
+                  {
+                    "translateY": -85.54063290245118,
+                  },
+                  {
+                    "rotateX": "1.5deg",
+                  },
+                  {
+                    "scale": 0.7,
+                  },
+                ],
+                "zIndex": 100,
+              }
+            }
+          >
+            <Text
+              style={{}}
+            />
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#69c0ba",
+          "borderRadius": 10,
+          "height": 55,
+          "justifyContent": "center",
+          "opacity": 1,
+          "paddingHorizontal": 10,
+          "width": "80%",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#ffffff",
+            "fontSize": 22,
+            "textAlign": "center",
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

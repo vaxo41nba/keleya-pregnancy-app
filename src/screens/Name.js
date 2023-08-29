@@ -24,7 +24,7 @@ export default function Name({ navigation }) {
     >
       <View style={styles.header}>
         <Image source={images.couch} style={styles.image} />
-        <BackArrow />
+        <BackArrow navigation={navigation} />
       </View>
 
       <Text style={styles.h1}>

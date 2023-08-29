@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    {
+      "minHeight": "100%",
+      "paddingBottom": 30,
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        {
+          "height": 320,
+          "width": "100%",
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "height": 35,
+            "justifyContent": "center",
+            "left": 35,
+            "opacity": 1,
+            "position": "absolute",
+            "top": 54,
+            "width": 40,
+          }
+        }
+      >
+        <Image
+          source={1}
+          style={
+            {
+              "height": 15,
+              "width": 20,
+            }
+          }
+        />
+      </View>
+    </View>
+    <Text
+      style={
+        {
+          "alignSelf": "center",
+          "color": "#4a4a4a",
+          "fontSize": 25,
+          "marginBottom": 20,
+          "maxWidth": "85%",
+          "textAlign": "center",
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "marginHorizontal": "10%",
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 50,
+            },
+            {
+              "borderBottomWidth": 1,
+            },
+          ]
+        }
+      >
+        <TextInput
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          placeholder="example@gmail.com"
+          style={
+            [
+              {
+                "flex": 1,
+                "fontSize": 18,
+              },
+              {
+                "paddingLeft": 20,
+              },
+            ]
+          }
+          value={null}
+        />
+      </View>
+      <View
+        style={
+          {
+            "marginVertical": 10,
+          }
+        }
+      />
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 50,
+            },
+            {
+              "borderBottomWidth": 1,
+            },
+          ]
+        }
+      >
+        <TextInput
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          secureTextEntry={true}
+          style={
+            [
+              {
+                "flex": 1,
+                "fontSize": 18,
+              },
+              {
+                "paddingLeft": 20,
+              },
+            ]
+          }
+          value={null}
+        />
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "height": 40,
+              "justifyContent": "center",
+              "marginLeft": 10,
+              "opacity": 1,
+              "width": 50,
+            }
+          }
+        >
+          <Image
+            source={1}
+            style={
+              {
+                "height": 30,
+                "resizeMode": "contain",
+                "width": 30,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#4a4a4a",
+            "fontSize": 20,
+            "marginBottom": 15,
+          }
+        }
+      />
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#9b9b9b",
+            "borderRadius": 10,
+            "height": 55,
+            "justifyContent": "center",
+            "opacity": 1,
+            "paddingHorizontal": 10,
+            "width": "80%",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#ffffff",
+              "fontSize": 22,
+              "textAlign": "center",
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

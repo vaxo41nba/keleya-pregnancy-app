@@ -7,7 +7,7 @@ import {
   Text,
   View,
 } from 'react-native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+// import AsyncStorage from '@react-native-async-storage/async-storage';
 import i18next, { t } from 'i18next';
 import { getLocales } from 'expo-localization';
 
@@ -33,7 +33,7 @@ export default function Intro({ navigation }) {
   };
 
   useEffect(() => {
-    const localLang = getLocales()[0].languageCode;
+    const localLang = getLocales()[0]?.languageCode;
     const translations = Object.keys(i18next.store.data);
     const isAvailable = translations.includes(localLang);
     handleLanguage(isAvailable ? localLang : 'en');

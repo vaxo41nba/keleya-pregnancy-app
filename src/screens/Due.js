@@ -42,7 +42,7 @@ export default function Name({ navigation, route }) {
     >
       <View style={styles.header}>
         <Image source={images.due} style={styles.image} />
-        <BackArrow />
+        <BackArrow navigation={navigation} />
       </View>
 
       <Text style={styles.h1}>

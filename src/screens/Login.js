@@ -44,7 +44,7 @@ export default function SignUp({ navigation }) {
     >
       <View style={styles.header}>
         <Image source={images.auth} style={styles.image} />
-        <BackArrow />
+        <BackArrow navigation={navigation} />
       </View>
 
       <Text style={styles.h1}>{t('Welcome back!')}</Text>
