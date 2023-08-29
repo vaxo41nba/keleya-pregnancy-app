@@ -1,5 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { Image, ImageBackground, StyleSheet, Text, View } from 'react-native';
+import {
+  Image,
+  ImageBackground,
+  Pressable,
+  StyleSheet,
+  Text,
+  View,
+} from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import i18next, { t } from 'i18next';
 import { getLocales } from 'expo-localization';
@@ -61,13 +68,15 @@ export default function Intro({ navigation }) {
         <View style={styles.chooseLanguage}>
           <Text>{t('Choose Language:')}</Text>
           {['en', 'de'].map((l) => (
-            <Text
-              style={[styles.lang, background(l)]}
+            <Pressable
+              style={[styles.langContainer, background(l)]}
               key={l}
               onPress={() => handleLanguage(l)}
             >
-              {l.toUpperCase()}
-            </Text>
+              <Text suppressHighlighting={false} style={styles.lang}>
+                {l.toUpperCase()}
+              </Text>
+            </Pressable>
           ))}
         </View>
       </View>
@@ -96,6 +105,8 @@ const styles = StyleSheet.create({
   },
   lang: {
     fontSize: 15,
+  },
+  langContainer: {
     marginLeft: 10,
     padding: 10,
     borderRadius: 20,

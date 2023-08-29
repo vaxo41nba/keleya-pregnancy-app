@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: colors.GREYISH_BROWN,
     position: 'absolute',
-    top: 70,
+    top: '20%',
     left: 40,
     right: 40,
   },

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {
-  Dimensions,
   Image,
   ScrollView,
   StyleSheet,
@@ -39,7 +38,7 @@ export default function SignUp({ navigation }) {
     <ScrollView
       style={styles.container}
       contentContainerStyle={{
-        minHeight: Dimensions.get('window').height,
+        minHeight: '100%',
         paddingBottom: 30,
       }}
     >

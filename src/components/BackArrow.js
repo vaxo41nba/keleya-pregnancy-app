@@ -1,10 +1,11 @@
 import React from 'react';
 import { StyleSheet, TouchableOpacity, StatusBar, Image } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import Constants from 'expo-constants';
 
 import images from '../constants/images';
 
-const margin = StatusBar.currentHeight;
+const top = Constants.statusBarHeight;
 
 export default function BackArrow() {
   const navigation = useNavigation();
@@ -21,8 +22,8 @@ const styles = StyleSheet.create({
   arrow: { width: 20, height: 15 },
   arrowContainer: {
     position: 'absolute',
-    top: margin,
-    left: margin,
+    top,
+    left: 35,
 
     justifyContent: 'center',
     alignItems: 'center',

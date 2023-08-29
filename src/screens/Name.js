@@ -1,12 +1,5 @@
 import React, { useState } from 'react';
-import {
-  Dimensions,
-  Image,
-  ScrollView,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
+import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { t } from 'i18next';
 
 import BackArrow from '../components/BackArrow';
@@ -25,7 +18,7 @@ export default function Name({ navigation }) {
     <ScrollView
       style={styles.container}
       contentContainerStyle={{
-        minHeight: Dimensions.get('window').height,
+        minHeight: '100%',
         paddingBottom: 30,
       }}
     >

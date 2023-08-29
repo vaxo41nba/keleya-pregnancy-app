@@ -15,7 +15,7 @@ const Stack = createNativeStackNavigator();
 export default function Navigator() {
   const screenOptions = {
     headerShown: false,
-    gestureEnabled: false,
+    // gestureEnabled: false,
     headerLeft: () => null,
   };
 
